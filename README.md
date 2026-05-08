@@ -30,6 +30,9 @@
 git clone <repo-url>
 cd sop-system
 
+## 提示
+在下载文件后需要将backend/node_modules/下的压缩文件解压，解压后执行构建
+
 # 2. 构建并启动（一条命令）
 docker compose build
 docker compose up -d
